@@ -1,3 +1,39 @@
+want to add below snippet in 
+
+   - name: Archive logs and binaries
+
+      uses: actions/upload-artifact@v4
+
+      with:
+
+        name: parsed_files
+
+        path: |
+
+          /__w/DevToys/DevToys/embold-data/**/*.txt
+
+
+
+below workflow file 
+
+want to add below snippet in 
+
+   - name: Archive logs and binaries
+
+      uses: actions/upload-artifact@v4
+
+      with:
+
+        name: parsed_files
+
+        path: |
+
+          /__w/DevToys/DevToys/embold-data/**/*.txt
+
+
+
+below workflow file 
+
 name: .NET
 on:
   push:
